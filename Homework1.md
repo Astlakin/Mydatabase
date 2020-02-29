@@ -10,7 +10,7 @@
 
 `show databases;`
 
-p1
+![p1.png](https://i.loli.net/2020/02/29/Fo3qZuIgf1PSbUN.png)
 
 ### drop database company1
 
@@ -18,7 +18,7 @@ p1
 
 `show databases;`
 
-p2
+![p2.png](https://i.loli.net/2020/02/29/L8CHPzlwEIDZ36T.png)
 
 ## Table
 
@@ -27,32 +27,33 @@ p2
 `use company`
 
 `create table dept (
-    deptno INT,
-	  dname VARCHAR(20),
-	  loc  VARCHAR(40)
+	deptno INT,
+	dname VARCHAR(20),
+	loc  VARCHAR(40)
 );`
 
 `create table dept1 (
-    deptno INT,
-	  dname VARCHAR(20),
-	  loc  VARCHAR(40)
+	deptno INT,
+	dname VARCHAR(20),
+	loc  VARCHAR(40)
 );`
 
 `show tables`
 
-p3
+![p3.png](https://i.loli.net/2020/02/29/z1YNahCdOAo6pKE.png)
 
 ### delect the table 
 
 `drop table dept1`
 
-p4
+`show tables`
+
+![p4.png](https://i.loli.net/2020/02/29/gKfzasPo1rXOtCY.png)
 
 ### show the table(two ways) 
 
 `describe dept` or `desc dept`
 `show create table dept`
 
-
-
+![p5.png](https://i.loli.net/2020/02/29/UFOdV9taeZETpfG.png)
 
