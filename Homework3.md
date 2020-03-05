@@ -6,27 +6,18 @@
 
 #### TABLLE1
 `
- CREATE TABLE t_employee (
- 
-    deptno INT NOT NULL,
-    
-    empno INT  PRIMARY KEY,
-    
-    ename VARCHAR(20),
-    
-    job  VARCHAR(20),
-    
-    MGR  INT,
-    
-    Hiredate Date,
-    
-    sal    float,
-    
-    comm   float
+CREATE TABLE t_employee (
+	deptno INT NOT NULL,
+	empno INT  PRIMARY KEY,
+	ename VARCHAR(20),
+	job  VARCHAR(20),
+	MGR  INT,    
+	Hiredate Date,    
+	sal    float,    
+	comm   float
  );`
 
 #### INSERT VALUES INTO TABLE1
-
 
 `INSERT INTO t_employee2 (empno, ename, job, MGR, Hiredate, sal, comm, deptno) VALUES 
    	(7369, "SMITH", "CLERK", 7902, "1981-03-12", 800.00, NULL, 20),
