@@ -6,7 +6,8 @@
 
 #### TABLLE1
 
-`CREATE TABLE t_employee (
+`
+CREATE TABLE t_employee (
 
 	deptno INT NOT NULL,
 	
@@ -25,11 +26,13 @@
 	comm   float
 	
  );
- `
+`
 
 #### INSERT VALUES INTO TABLE1
 
-`INSERT INTO t_employee2 (empno, ename, job, MGR, Hiredate, sal, comm, deptno) VALUES 
+`
+
+INSERT INTO t_employee2 (empno, ename, job, MGR, Hiredate, sal, comm, deptno) VALUES 
 
    	(7369, "SMITH", "CLERK", 7902, "1981-03-12", 800.00, NULL, 20),
 	
@@ -56,11 +59,14 @@
 	(7902, "FORD", "ANALYST", 7566, "1981-03-12", 3000, NULL, 20),
 	
 	(7934, "MILLER", "CLERK", 7782, "1981-03-12", 1300, NULL, 10);
+	
 `
 
 #### TABLE2
 
-`DROP TABLE IF EXISTS t_dept;
+`
+
+DROP TABLE IF EXISTS t_dept;
 
 CREATE TABLE t_dept (
 
@@ -69,11 +75,14 @@ CREATE TABLE t_dept (
     dname VARCHAR(30),
     
     loc VARCHAR(50)
-);`
+);
+
+`
 
 #### INSERT VALUES INTO TABLE2
 
 `
+
 INSERT INTO t_dept VALUES 
 
 (10, "ACCOUNTING", "NEW YORK"),
@@ -83,7 +92,9 @@ INSERT INTO t_dept VALUES
 (30, "SALES", "CHICAGO"),
 
 (40, "OPERATIONS", "BOSTON")
-;`
+;
+
+`
 
 
 
