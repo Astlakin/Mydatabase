@@ -6,7 +6,7 @@
 
 #### TABLLE1
 
-`CREATE TABLE t_employee (
+`create table t_employee (
 
 	deptno INT NOT NULL,
 	
@@ -27,7 +27,7 @@
 
 #### INSERT VALUES INTO TABLE1
 
-`INSERT INTO t_employee2 (empno, ename, job, MGR, Hiredate, sal, comm, deptno) VALUES 
+`inset into t_employee2 (empno, ename, job, MGR, Hiredate, sal, comm, deptno) values 
 
    	(7369, "SMITH", "CLERK", 7902, "1981-03-12", 800.00, NULL, 20),
 	
@@ -58,9 +58,9 @@
 
 #### TABLE2
 
-`DROP TABLE IF EXISTS t_dept;
+`drop table if exsist t_dept;
 
-CREATE TABLE t_dept (
+create table t_dept (
 
     deptno INT PRIMARY KEY,
     
@@ -71,7 +71,7 @@ CREATE TABLE t_dept (
 
 #### INSERT VALUES INTO TABLE2
 
-`INSERT INTO t_dept VALUES 
+`insert into t_dept values
 
 (10, "ACCOUNTING", "NEW YORK"),
 
