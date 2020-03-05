@@ -29,7 +29,8 @@ CREATE TABLE t_employee (
 
 #### INSERT VALUES INTO TABLE1
 
-`INSERT INTO t_employee2 (empno, ename, job, MGR, Hiredate, sal, comm, deptno) VALUES 
+`
+INSERT INTO t_employee2 (empno, ename, job, MGR, Hiredate, sal, comm, deptno) VALUES 
 
    	(7369, "SMITH", "CLERK", 7902, "1981-03-12", 800.00, NULL, 20),
 	
@@ -64,8 +65,11 @@ CREATE TABLE t_employee (
 DROP TABLE IF EXISTS t_dept;
 
 CREATE TABLE t_dept (
+
     deptno INT PRIMARY KEY,
+    
     dname VARCHAR(30),
+    
     loc VARCHAR(50)
 );`
 #### INSERT VALUES INTO TABLE2
@@ -80,7 +84,6 @@ INSERT INTO t_dept VALUES
 (30, "SALES", "CHICAGO"),
 
 (40, "OPERATIONS", "BOSTON")
-
 ;`
 
 
